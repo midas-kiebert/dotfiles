@@ -176,16 +176,10 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym semicolon resize grow width 10 px or 10 ppt
-
-        # same bindings, but for the arrow keys
-        bindsym Left resize shrink width 10 px or 10 ppt
-        bindsym Down resize grow height 10 px or 10 ppt
-        bindsym Up resize shrink height 10 px or 10 ppt
-        bindsym Right resize grow width 10 px or 10 ppt
+        bindsym Left resize shrink width 10 px
+        bindsym Down resize grow height 10 px
+        bindsym Up resize shrink height 10 px
+        bindsym Right resize grow width 10 px
 
         # back to normal: Enter or Escape or $mod+r
         bindsym Return mode "default"
@@ -216,9 +210,9 @@ hide_edge_borders both
 
 bindsym $mod+shift+x exec --no-startup-id i3lock
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% && pkill -SIGRTMIN+10 i3blocks #increase sound volume
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% && pkill -SIGRTMIN+10 i3blocks #decrease sound volume
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle && pkill -SIGRTMIN+10 i3blocks # mute sound
+bindsym XF86AudioRaiseVolume exec pactl set-sink-volume $(pactl info | grep 'Default Sink: ' | sed 's/^Default Sink: //') +5%
+bindsym XF86AudioLowerVolume exec pactl set-sink-volume $(pactl info | grep 'Default Sink: ' | sed 's/^Default Sink: //') -5%
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute $(pactl info | grep 'Default Sink: ' | sed 's/^Default Sink: //') toggle # mute sound
 
 # Sreen brightness controls
 bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 20 # increase screen brightness
@@ -234,6 +228,8 @@ bindsym Mod1+Control+backslash exec --no-startup-id ~/scripts/connect-bt.sh
 bindsym Mod1+Tab workspace back_and_forth
 
 bindsym Mod1+W exec --no-startup-id $TERMINAL -e nmtui
+bindsym $mod+equal	gaps inner current plus 5
+bindsym $mod+minus	gaps inner current minus 5
 
 exec_always --no-startup-id feh --bg-scale /home/midas/Pictures/wallpaper.png
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
