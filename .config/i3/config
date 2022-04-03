@@ -236,5 +236,5 @@ bindsym Mod1+W exec --no-startup-id $TERMINAL -e nmtui
 
 exec_always --no-startup-id feh --bg-scale /home/midas/Pictures/wallpaper.png
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec_always --no-startup-id python3 -u $HOME/scripts/i3-alternating-layout/alternating_layouts.py
+exec_always --no-startup-id python3 -u $HOME/scripts/alternating_layouts.py
 exec_always --no-startup-id picom -CGb
