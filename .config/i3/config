@@ -210,8 +210,8 @@ hide_edge_borders both
 
 bindsym $mod+shift+x exec --no-startup-id $HOME/scripts/lockscreen.sh
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec pactl set-sink-volume $(pactl info | grep 'Default Sink: ' | sed 's/^Default Sink: //') +5%
-bindsym XF86AudioLowerVolume exec pactl set-sink-volume $(pactl info | grep 'Default Sink: ' | sed 's/^Default Sink: //') -5%
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume $(pactl info | grep 'Default Sink: ' | sed 's/^Default Sink: //') +5%
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume $(pactl info | grep 'Default Sink: ' | sed 's/^Default Sink: //') -5%
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute $(pactl info | grep 'Default Sink: ' | sed 's/^Default Sink: //') toggle # mute sound
 
 # Lock Screen
