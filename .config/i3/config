@@ -208,11 +208,14 @@ hide_edge_borders both
 #        status_command i3bar
 #}
 
-bindsym $mod+shift+x exec --no-startup-id i3lock
+bindsym $mod+shift+x exec --no-startup-id $HOME/scripts/lockscreen.sh
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume $(pactl info | grep 'Default Sink: ' | sed 's/^Default Sink: //') +5%
 bindsym XF86AudioLowerVolume exec pactl set-sink-volume $(pactl info | grep 'Default Sink: ' | sed 's/^Default Sink: //') -5%
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute $(pactl info | grep 'Default Sink: ' | sed 's/^Default Sink: //') toggle # mute sound
+
+# Lock Screen
+exec_always --no-startup-id xss-lock -l $HOME/scripts/lockscreen.sh
 
 # Sreen brightness controls
 bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 20 # increase screen brightness
