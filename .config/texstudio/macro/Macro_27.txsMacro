@@ -1,0 +1,14 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "Brackets",
+    "name": "()",
+    "shortcut": "",
+    "tag": [
+        "\\left( %| \\right)"
+    ],
+    "trigger": ";\\("
+}

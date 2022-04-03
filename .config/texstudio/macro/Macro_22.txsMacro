@@ -1,0 +1,16 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "Environments",
+    "name": "Bewijs",
+    "shortcut": "",
+    "tag": [
+        "\\begin{bewijs}",
+        "\t%|",
+        "\\end{bewijs}"
+    ],
+    "trigger": ";bw"
+}

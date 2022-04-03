@@ -1,0 +1,14 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "Mathematical Symbols",
+    "name": "times",
+    "shortcut": "",
+    "tag": [
+        "\\times"
+    ],
+    "trigger": ";x"
+}

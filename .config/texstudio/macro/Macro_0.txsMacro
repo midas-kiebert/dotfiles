@@ -1,0 +1,42 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "",
+    "name": "Document",
+    "shortcut": "Shift+F1",
+    "tag": [
+        "\\documentclass{article}",
+        "\\usepackage[utf8]{inputenc}",
+        "\\usepackage{amsthm}",
+        "\\usepackage{mathtools}",
+        "\\usepackage{amsmath}",
+        "\\usepackage{amssymb}",
+        "\\usepackage{amsfonts}",
+        "\\usepackage{dsfont}",
+        "\\usepackage{mathrsfs}",
+        "\\usepackage[dutch]{babel}",
+        "\\theoremstyle{definition}",
+        "\\newtheorem{inneropgave}{Opgave}",
+        "\\newenvironment{opgave}[1]",
+        "{\\renewcommand\\theinneropgave{#1}\\inneropgave}",
+        "{\\endinneropgave}",
+        "\\theoremstyle{remark}",
+        "\\newenvironment{uitwerking}{\\begin{proof}[Uitwerking]}{\\end{proof}}",
+        "\\newenvironment{bewijs}{\\begin{proof}[Bewijs]}{\\end{proof}}",
+        "",
+        "\\title{%<TITLE%>}",
+        "\\author{Midas Kiebert}",
+        "",
+        "\\begin{document}",
+        "",
+        "\\maketitle",
+        "",
+        "%<CONTENT%>",
+        "",
+        "\\end{document}"
+    ],
+    "trigger": ";DOC"
+}

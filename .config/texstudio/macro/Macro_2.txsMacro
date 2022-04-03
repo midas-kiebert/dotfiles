@@ -1,0 +1,14 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "Special Fonts",
+    "name": "R",
+    "shortcut": "",
+    "tag": [
+        "\\mathbb{R}"
+    ],
+    "trigger": ";R"
+}

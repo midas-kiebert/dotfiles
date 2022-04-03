@@ -1,0 +1,14 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "Mathematical Symbols",
+    "name": "infinite sum",
+    "shortcut": "",
+    "tag": [
+        "\\sum^{\\infty}_{%|}"
+    ],
+    "trigger": ";isum"
+}

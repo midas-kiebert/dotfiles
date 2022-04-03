@@ -1,0 +1,16 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "Environments",
+    "name": "Uitwerking",
+    "shortcut": "",
+    "tag": [
+        "\\begin{uitwerking}",
+        "\t%|",
+        "\\end{uitwerking}"
+    ],
+    "trigger": ";ui"
+}

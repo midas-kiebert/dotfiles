@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "",
+    "name": "Newline",
+    "shortcut": "Shift+Return",
+    "tag": [
+        "\\\\",
+        ""
+    ],
+    "trigger": ""
+}

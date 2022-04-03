@@ -1,0 +1,14 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "Special Fonts",
+    "name": "Q",
+    "shortcut": "",
+    "tag": [
+        "\\mathbb{Q}"
+    ],
+    "trigger": ";Q"
+}

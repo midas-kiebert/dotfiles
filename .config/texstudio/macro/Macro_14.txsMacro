@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "Environments",
+    "name": "New Item",
+    "shortcut": "Ctrl+Alt+i",
+    "tag": [
+        "",
+        "\\item[%|]"
+    ],
+    "trigger": ""
+}

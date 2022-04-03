@@ -1,0 +1,14 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "Special Fonts",
+    "name": "P",
+    "shortcut": "",
+    "tag": [
+        "\\mathds{P}"
+    ],
+    "trigger": ";P"
+}

@@ -1,0 +1,14 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "Special Fonts",
+    "name": "C",
+    "shortcut": "",
+    "tag": [
+        "\\mathbb{C}"
+    ],
+    "trigger": ";C"
+}

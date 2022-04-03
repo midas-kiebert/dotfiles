@@ -1,0 +1,16 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "Environments",
+    "name": "Itemize",
+    "shortcut": "",
+    "tag": [
+        "\\begin{itemize}",
+        "\t\\item[%|]",
+        "\\end{itemize}"
+    ],
+    "trigger": ";it"
+}

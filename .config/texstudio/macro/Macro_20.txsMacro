@@ -1,0 +1,16 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "Environments",
+    "name": "BMatrix",
+    "shortcut": "",
+    "tag": [
+        "\\begin{bmatrix}",
+        "\t%|",
+        "\\end{bmatrix}"
+    ],
+    "trigger": ";bmat"
+}

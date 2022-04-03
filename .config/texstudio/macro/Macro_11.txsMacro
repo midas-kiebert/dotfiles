@@ -1,0 +1,14 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "Special Fonts",
+    "name": "omega",
+    "shortcut": "",
+    "tag": [
+        "\\omega"
+    ],
+    "trigger": "'o"
+}

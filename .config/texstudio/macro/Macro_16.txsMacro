@@ -1,0 +1,16 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "Environments",
+    "name": "Display",
+    "shortcut": "",
+    "tag": [
+        "\\[",
+        "\t%|",
+        "\\]"
+    ],
+    "trigger": ";d"
+}

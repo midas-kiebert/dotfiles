@@ -1,0 +1,16 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "Environments",
+    "name": "PMatrix",
+    "shortcut": "",
+    "tag": [
+        "\\begin{pmatrix}",
+        "\t%|",
+        "\\end{pmatrix}"
+    ],
+    "trigger": ";pmat"
+}

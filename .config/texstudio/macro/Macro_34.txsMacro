@@ -1,0 +1,14 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "Mathematical Symbols",
+    "name": "sum",
+    "shortcut": "",
+    "tag": [
+        "\\sum_{%<a%>}^{%<b%>}"
+    ],
+    "trigger": ";sum"
+}

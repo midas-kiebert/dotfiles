@@ -1,0 +1,14 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "Special Fonts",
+    "name": "E",
+    "shortcut": "",
+    "tag": [
+        "\\mathds{E}"
+    ],
+    "trigger": ";E"
+}

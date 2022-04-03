@@ -1,0 +1,14 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "Special Fonts",
+    "name": "O",
+    "shortcut": "",
+    "tag": [
+        "\\mathcal{O}"
+    ],
+    "trigger": ";O"
+}

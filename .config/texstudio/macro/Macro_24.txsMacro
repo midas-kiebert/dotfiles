@@ -1,0 +1,16 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "Environments",
+    "name": "Opgave",
+    "shortcut": "",
+    "tag": [
+        "\\begin{opgave}",
+        "\t%|",
+        "\\end{opgave}"
+    ],
+    "trigger": ";op"
+}

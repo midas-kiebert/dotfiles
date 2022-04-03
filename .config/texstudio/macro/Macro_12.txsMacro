@@ -1,0 +1,14 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "Special Fonts",
+    "name": "sigma",
+    "shortcut": "",
+    "tag": [
+        "\\sigma"
+    ],
+    "trigger": "'s"
+}
