@@ -231,6 +231,7 @@ bindsym XF86AudioNext exec --no-startup-id playerctl next
 bindsym XF86AudioPrev exec --no-startup-id playerctl previous
 
 bindsym Mod1+Control+backslash exec --no-startup-id ~/scripts/connect-bt.sh
+bindsym Mod1+Tab workspace back_and_forth
 
 bindsym Mod1+W exec --no-startup-id $TERMINAL -e nmtui
 
