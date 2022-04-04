@@ -161,6 +161,12 @@ assign [class="firefox"] $ws2
 
 for_window [class="Blueman-manager"] floating enable
 
+# Shortcuts to open programs, Alt+Shift+[KEY]
+bindsym Mod1+Shift+f exec --no-startup-id "firefox"; workspace number $ws2
+bindsym Mod1+Shift+c exec --no-startup-id "code"; workspace number $ws3
+bindsym Mod1+Shift+t exec --no-startup-id "texstudio"; workspace number $ws4
+bindsym Mod1+Shift+d exec --no-startup-id "discord"; workspace number $ws5
+
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
@@ -238,3 +244,4 @@ exec_always --no-startup-id feh --bg-scale /home/midas/Pictures/wallpaper.png
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always --no-startup-id python3 -u $HOME/scripts/alternating_layouts.py
 exec_always --no-startup-id picom -CGb
+exec_always --no-startup-id setxkbmap -layout us

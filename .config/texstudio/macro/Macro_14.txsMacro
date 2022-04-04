@@ -8,7 +8,6 @@
     "name": "New Item",
     "shortcut": "Ctrl+Alt+i",
     "tag": [
-        "",
         "\\item[%|]"
     ],
     "trigger": ""
