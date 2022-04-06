@@ -138,6 +138,6 @@ export PATH=/home/midas/pycharm-2021.3.1/bin:$PATH
 export PATH=/home/midas/schrips:$PATH
 export PATH=/home/midas/node/bin:$PATH
 
-exec fish -C neofetch
+exec fish 
 
 AOCSESSION="session=53616c7465645f5f141d0a91f627c0d25c1416d7b89c75dc7b7ae153c596055312dc5ec9d1091428405f1343e1ad4538"; export AOCSESSION

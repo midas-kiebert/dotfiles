@@ -8,8 +8,8 @@
     "name": "Opgave",
     "shortcut": "",
     "tag": [
-        "\\begin{opgave}",
-        "\t%|",
+        "\\begin{opgave}{%|}",
+        "\t",
         "\\end{opgave}"
     ],
     "trigger": ";op"

@@ -4,11 +4,11 @@
         ""
     ],
     "formatVersion": 1,
-    "menu": "Special Fonts",
-    "name": "tau",
+    "menu": "Mathematical Symbols",
+    "name": "Fraction",
     "shortcut": "",
     "tag": [
-        "\\tau"
+        "\\frac{%<a%>}{%<b%>}"
     ],
-    "trigger": "`t"
+    "trigger": ";/"
 }
