@@ -53,7 +53,7 @@ bindsym $mod+Return exec --no-startup-id $TERMINAL
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id dmenu_run
+bindsym $mod+d exec --no-startup-id rofi -modi drun -theme solarized -show drun
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -225,6 +225,8 @@ bindsym $mod+shift+x exec --no-startup-id $HOME/scripts/lockscreen.sh
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume $(pactl info | grep 'Default Sink: ' | sed 's/^Default Sink: //') +5%
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume $(pactl info | grep 'Default Sink: ' | sed 's/^Default Sink: //') -5%
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute $(pactl info | grep 'Default Sink: ' | sed 's/^Default Sink: //') toggle # mute sound
+
+bindsym $mod+n exec --no-startup-id $HOME/scripts/newhomework.sh
 
 # Lock Screen
 exec_always --no-startup-id xss-lock -l $HOME/scripts/lockscreen.sh
