@@ -92,6 +92,7 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
+alias pw='/home/midas/scripts/pushwiskunde.sh'
 alias hw='/home/midas/scripts/newhomework.sh'
 alias i3conf='vim ~/.config/i3/config'
 alias python='python3'
