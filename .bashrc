@@ -92,6 +92,7 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
+alias hw='/home/midas/scripts/newhomework.sh'
 alias i3conf='vim ~/.config/i3/config'
 alias python='python3'
 alias config='/usr/bin/git --git-dir=/home/midas/dotfiles/ --work-tree=/home/midas'
@@ -137,7 +138,7 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 export PATH=/home/midas/pycharm-2021.3.1/bin:$PATH
-export PATH=/home/midas/schrips:$PATH
+export PATH=/home/midas/scripts:$PATH
 export PATH=/home/midas/node/bin:$PATH
 export PATH=/home/midas/kattis-cli:$PATH
 
