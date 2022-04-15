@@ -1,0 +1,6 @@
+configuration {
+    display-drun: "Applications";
+    display-window: "Windows";
+    modi: "window, run, drun";
+    show-icons: true;
+}
