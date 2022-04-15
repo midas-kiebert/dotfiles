@@ -98,6 +98,8 @@ alias config='/usr/bin/git --git-dir=/home/midas/dotfiles/ --work-tree=/home/mid
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias update_config='/usr/bin/git --git-dir=/home/midas/dotfiles/ --work-tree=/home/midas add /home/midas/.bashrc /home/midas/scripts /home/midas/.config/alacritty /home/midas/.config/i3/ /home/midas/.config/polybar/ /home/midas/.config/texstudio /home/midas/.kattisrc /home/midas/.vim /home/midas/.config/picom.conf'
+
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -137,7 +139,8 @@ unset __conda_setup
 export PATH=/home/midas/pycharm-2021.3.1/bin:$PATH
 export PATH=/home/midas/schrips:$PATH
 export PATH=/home/midas/node/bin:$PATH
+export PATH=/home/midas/kattis-cli:$PATH
 
-exec fish 
+#exec fish 
 
 AOCSESSION="session=53616c7465645f5f141d0a91f627c0d25c1416d7b89c75dc7b7ae153c596055312dc5ec9d1091428405f1343e1ad4538"; export AOCSESSION

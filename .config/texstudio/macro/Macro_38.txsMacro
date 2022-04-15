@@ -5,10 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "Mathematical Symbols",
-    "name": "inverse",
+    "name": "prime",
     "shortcut": "",
     "tag": [
-        "^{-1}"
+        "^{\\prime}"
     ],
-    "trigger": "\\^-1"
+    "trigger": "\\^'"
 }

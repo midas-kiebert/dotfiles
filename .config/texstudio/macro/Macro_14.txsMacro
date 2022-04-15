@@ -6,7 +6,7 @@
     "formatVersion": 1,
     "menu": "Environments",
     "name": "New Item",
-    "shortcut": "Ctrl+Alt+i",
+    "shortcut": "Ctrl+Alt+I",
     "tag": [
         "\\item[%|]"
     ],
