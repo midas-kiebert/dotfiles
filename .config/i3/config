@@ -54,7 +54,7 @@ bindsym $mod+Return exec --no-startup-id $TERMINAL
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id rofi -modi drun -theme solarized -show drun
+bindsym $mod+d exec --no-startup-id rofi -show drun
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -172,7 +172,7 @@ bindsym Mod1+Shift+f workspace number $ws2; exec --no-startup-id "firefox"
 bindsym Mod1+Shift+c workspace number $ws3; exec --no-startup-id "code"
 bindsym Mod1+Shift+t workspace number $ws4; exec --no-startup-id "texstudio"
 bindsym Mod1+Shift+d workspace number $ws5; exec --no-startup-id "discord"
-bindsym Mod1+Shift+s workspace number $ws7; exec --no-startup-id "thunar"
+bindsym Mod1+Shift+s workspace number $ws7; exec --no-startup-id "pcmanfm"
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -230,7 +230,9 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute $(pactl info | gr
 bindsym $mod+bracketright exec --no-startup-id pactl set-sink-volume $(pactl info | grep 'Default Sink: ' | sed 's/^Default Sink: //') +5%
 bindsym $mod+bracketleft exec --no-startup-id pactl set-sink-volume $(pactl info | grep 'Default Sink: ' | sed 's/^Default Sink: //') -5%
 
+bindsym $mod+b exec --no-startup-id $scripts/book.sh
 bindsym $mod+n exec --no-startup-id $scripts/newhomework.sh
+bindsym $mod+m exec --no-startup-id $scripts/showhomework.sh
 
 # Lock Screen
 exec_always --no-startup-id xss-lock -l $scripts/lockscreen.sh
@@ -247,6 +249,8 @@ bindsym Mod1+Tab workspace back_and_forth
 bindsym Mod1+W exec --no-startup-id $TERMINAL -e nmtui
 bindsym $mod+equal	gaps inner current plus 5
 bindsym $mod+minus	gaps inner current minus 5
+bindsym $mod+Shift+equal gaps outer current plus 5
+bindsym $mod+Shift+minus gaps outer current minus 5
 
 exec_always --no-startup-id feh --bg-scale /home/midas/Pictures/wallpaper.png
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
