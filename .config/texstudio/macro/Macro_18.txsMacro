@@ -5,12 +5,12 @@
     ],
     "formatVersion": 1,
     "menu": "Environments",
-    "name": "Itemize",
+    "name": "Equation",
     "shortcut": "",
     "tag": [
-        "\\begin{itemize}",
-        "\t\\item[%|]",
-        "\\end{itemize}"
+        "\\begin{equation} \\label{eq:%<LABEL%>}",
+        "\t%<EQUATION%>",
+        "\\end{equation}"
     ],
-    "trigger": ";it"
+    "trigger": ";eq"
 }

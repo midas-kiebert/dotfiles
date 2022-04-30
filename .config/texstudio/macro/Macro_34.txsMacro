@@ -5,10 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "Mathematical Symbols",
-    "name": "sum",
+    "name": "integral",
     "shortcut": "",
     "tag": [
-        "\\sum_{%<a%>}^{%<b%>}"
+        "\\int_{%<a%>}^{%<b%>}"
     ],
-    "trigger": ";sum"
+    "trigger": ";int"
 }

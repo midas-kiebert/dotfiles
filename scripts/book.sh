@@ -8,4 +8,4 @@ fi
 
 i3-msg workspace 2
 
-firefox /home/midas/Boeken/"$boek"
+xdg-open /home/midas/Boeken/"$boek"

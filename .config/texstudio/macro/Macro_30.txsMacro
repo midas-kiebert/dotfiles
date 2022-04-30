@@ -4,11 +4,11 @@
         ""
     ],
     "formatVersion": 1,
-    "menu": "Mathematical Symbols",
-    "name": "times",
+    "menu": "Brackets",
+    "name": "||",
     "shortcut": "",
     "tag": [
-        "\\times"
+        "\\left| %| \\right|"
     ],
-    "trigger": ";x"
+    "trigger": ";\\|"
 }

@@ -5,12 +5,12 @@
     ],
     "formatVersion": 1,
     "menu": "Environments",
-    "name": "Equation",
+    "name": "Display",
     "shortcut": "",
     "tag": [
-        "\\begin{equation} \\label{eq:%<LABEL%>}",
-        "\t%<EQUATION%>",
-        "\\end{equation}"
+        "\\[",
+        "\t%|",
+        "\\]"
     ],
-    "trigger": ";eq"
+    "trigger": ";d"
 }

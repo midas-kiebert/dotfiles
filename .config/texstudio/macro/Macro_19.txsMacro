@@ -5,12 +5,12 @@
     ],
     "formatVersion": 1,
     "menu": "Environments",
-    "name": "Align",
+    "name": "Itemize",
     "shortcut": "",
     "tag": [
-        "\\begin{align*}",
-        "\t%|",
-        "\\end{align*}"
+        "\\begin{itemize}",
+        "\t\\item[%|]",
+        "\\end{itemize}"
     ],
-    "trigger": ";al"
+    "trigger": ";it"
 }

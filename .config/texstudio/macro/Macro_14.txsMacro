@@ -4,11 +4,11 @@
         ""
     ],
     "formatVersion": 1,
-    "menu": "Environments",
-    "name": "New Item",
-    "shortcut": "Ctrl+Alt+I",
+    "menu": "Special Fonts",
+    "name": "N",
+    "shortcut": "",
     "tag": [
-        "\\item[%|]"
+        "\\mathbb{N}"
     ],
-    "trigger": ""
+    "trigger": ";N"
 }

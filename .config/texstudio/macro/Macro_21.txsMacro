@@ -5,12 +5,12 @@
     ],
     "formatVersion": 1,
     "menu": "Environments",
-    "name": "PMatrix",
+    "name": "BMatrix",
     "shortcut": "",
     "tag": [
-        "\\begin{pmatrix}",
+        "\\begin{bmatrix}",
         "\t%|",
-        "\\end{pmatrix}"
+        "\\end{bmatrix}"
     ],
-    "trigger": ";pmat"
+    "trigger": ";bmat"
 }

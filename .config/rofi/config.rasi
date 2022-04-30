@@ -5,3 +5,4 @@ configuration {
   show-icons: true;
 }
 @theme "sidebar"
+element-icon { size: 4.65ch ; }

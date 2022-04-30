@@ -5,12 +5,12 @@
     ],
     "formatVersion": 1,
     "menu": "Environments",
-    "name": "Opgave",
+    "name": "Uitwerking",
     "shortcut": "",
     "tag": [
-        "\\begin{opgave}{%|}",
-        "\t",
-        "\\end{opgave}"
+        "\\begin{uitwerking}",
+        "\t%|",
+        "\\end{uitwerking}"
     ],
-    "trigger": ";op"
+    "trigger": ";ui"
 }

@@ -5,10 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "Mathematical Symbols",
-    "name": "prime",
+    "name": "Fraction",
     "shortcut": "",
     "tag": [
-        "^{\\prime}"
+        "\\frac{%<a%>}{%<b%>}"
     ],
-    "trigger": "\\^'"
+    "trigger": ";/"
 }

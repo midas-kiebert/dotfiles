@@ -22,5 +22,5 @@ fi
 i3-msg workspace 2
 
 # Open firefox with homework
-firefox /home/midas/Wiskunde/$vak/"$vak"_$week/"$vak"_$week.pdf
+xdg-open /home/midas/Wiskunde/$vak/"$vak"_$week/"$vak"_$week.pdf
 

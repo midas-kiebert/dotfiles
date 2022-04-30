@@ -5,10 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "Mathematical Symbols",
-    "name": "infinite sum",
+    "name": "sum",
     "shortcut": "",
     "tag": [
-        "\\sum^{\\infty}_{%|}"
+        "\\sum_{%<a%>}^{%<b%>}"
     ],
-    "trigger": ";isum"
+    "trigger": ";sum"
 }

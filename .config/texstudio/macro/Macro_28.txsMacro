@@ -5,10 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "Brackets",
-    "name": "<>",
+    "name": "()",
     "shortcut": "",
     "tag": [
-        "\\left< %| \\right>"
+        "\\left( %| \\right)"
     ],
-    "trigger": ";<"
+    "trigger": ";\\("
 }

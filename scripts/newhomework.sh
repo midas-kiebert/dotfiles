@@ -22,4 +22,5 @@ fi
 i3-msg workspace 4
 
 # Open texstudio with homework
+touch /home/midas/Wiskunde/$vak/"$vak"_$week/"$vak"_$week.tex
 texstudio /home/midas/Wiskunde/$vak/"$vak"_$week/"$vak"_$week.tex

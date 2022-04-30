@@ -5,12 +5,12 @@
     ],
     "formatVersion": 1,
     "menu": "Environments",
-    "name": "Uitwerking",
+    "name": "Bewijs",
     "shortcut": "",
     "tag": [
-        "\\begin{uitwerking}",
+        "\\begin{bewijs}",
         "\t%|",
-        "\\end{uitwerking}"
+        "\\end{bewijs}"
     ],
-    "trigger": ";ui"
+    "trigger": ";bw"
 }

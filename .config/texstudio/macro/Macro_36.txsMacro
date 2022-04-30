@@ -5,10 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "Mathematical Symbols",
-    "name": "inverse",
+    "name": "infinite sum",
     "shortcut": "",
     "tag": [
-        "^{-1}"
+        "\\sum^{\\infty}_{%|}"
     ],
-    "trigger": "\\^-1"
+    "trigger": ";isum"
 }

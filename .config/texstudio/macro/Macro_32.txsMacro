@@ -5,10 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "Mathematical Symbols",
-    "name": "limit",
+    "name": "standard limit",
     "shortcut": "",
     "tag": [
-        "\\lim_{%|}"
+        "\\lim_{n \\to \\infty}"
     ],
-    "trigger": ";li"
+    "trigger": ";;l"
 }

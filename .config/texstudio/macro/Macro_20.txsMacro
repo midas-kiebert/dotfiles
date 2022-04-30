@@ -5,12 +5,12 @@
     ],
     "formatVersion": 1,
     "menu": "Environments",
-    "name": "BMatrix",
+    "name": "Align",
     "shortcut": "",
     "tag": [
-        "\\begin{bmatrix}",
+        "\\begin{align*}",
         "\t%|",
-        "\\end{bmatrix}"
+        "\\end{align*}"
     ],
-    "trigger": ";bmat"
+    "trigger": ";al"
 }

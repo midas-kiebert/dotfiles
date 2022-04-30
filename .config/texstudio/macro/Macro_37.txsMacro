@@ -5,10 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "Mathematical Symbols",
-    "name": "Fraction",
+    "name": "inverse",
     "shortcut": "",
     "tag": [
-        "\\frac{%<a%>}{%<b%>}"
+        "^{-1}"
     ],
-    "trigger": ";/"
+    "trigger": "\\^-1"
 }

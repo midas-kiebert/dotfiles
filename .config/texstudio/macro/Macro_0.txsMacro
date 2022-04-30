@@ -26,6 +26,7 @@
         "\\theoremstyle{remark}",
         "\\newenvironment{uitwerking}{\\begin{proof}[Uitwerking]}{\\end{proof}}",
         "\\newenvironment{bewijs}{\\begin{proof}[Bewijs]}{\\end{proof}}",
+        "\\def\\[#1\\]{\\begin{align*}#1\\end{align*}}",
         "",
         "\\title{%<TITLE%>}",
         "\\author{Midas Kiebert}",

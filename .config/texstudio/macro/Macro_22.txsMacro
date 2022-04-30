@@ -5,12 +5,12 @@
     ],
     "formatVersion": 1,
     "menu": "Environments",
-    "name": "Bewijs",
+    "name": "PMatrix",
     "shortcut": "",
     "tag": [
-        "\\begin{bewijs}",
+        "\\begin{pmatrix}",
         "\t%|",
-        "\\end{bewijs}"
+        "\\end{pmatrix}"
     ],
-    "trigger": ";bw"
+    "trigger": ";pmat"
 }
