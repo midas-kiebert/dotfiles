@@ -18,5 +18,7 @@
     "terminal.ansiWhite":"#abb2bf",
     "terminal.ansiYellow":"#D7BA7D"
     },
-    "terminal.integrated.fontFamily": "Hack Nerd Font Mono, MesloLGM Nerd Font"
+    "terminal.integrated.fontFamily": "Hack Nerd Font Mono, MesloLGM Nerd Font",
+    "editor.fontFamily": "'Hack Nerd Font', 'monospace', monospace",
+    "workbench.colorTheme": "Atom One Dark"
 }
