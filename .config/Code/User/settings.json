@@ -1,0 +1,22 @@
+{
+    "workbench.colorCustomizations": {
+    "terminal.foreground":"#dddad6",
+    "terminal.ansiBlack":"#1D2021",
+    "terminal.ansiBrightBlack":"#4C566A",
+    "terminal.ansiBrightBlue":"#5e81ac",
+    "terminal.ansiBrightCyan":"#88c0d0",
+    "terminal.ansiBrightGreen":"#A3BE8C",
+    "terminal.ansiBrightMagenta":"#B48EAD",
+    "terminal.ansiBrightRed":"#FB543F",
+    "terminal.ansiBrightWhite":"#abb2bf",
+    "terminal.ansiBrightYellow":"#D7BA7D",
+    "terminal.ansiBlue":"#5e81ac",
+    "terminal.ansiCyan":"#88c0d0",
+    "terminal.ansiGreen":"#A3BE8C",
+    "terminal.ansiMagenta":"#B48EAD",
+    "terminal.ansiRed":"#bf616a",
+    "terminal.ansiWhite":"#abb2bf",
+    "terminal.ansiYellow":"#D7BA7D"
+    },
+    "terminal.integrated.fontFamily": "Hack Nerd Font Mono, MesloLGM Nerd Font"
+}
