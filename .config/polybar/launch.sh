@@ -2,8 +2,14 @@
 
 killall -q polybar
 
-echo "---" | tee -a /tmp/polybar1.log /tmp/polybar2.log
-polybar DisplayPort2 &
-polybar main >> /tmp/polybar1.log 2>&1 &
+$second=$(xrandr --listmonitors | grep " DP"| sed -n -e 's/.*  //p') 
 
+echo "---" | tee -a /tmp/polybar1.log /tmp/polybar2.log
+if [ -z "$second" ]
+then
+	MONITOR=$(xrandr --listmonitors | grep " eDP"| sed -n -e 's/.*  //p') polybar main &
+else
+	MONITOR=$(xrandr --listmonitors | grep " DP"| sed -n -e 's/.*  //p') polybar DisplayPort2 &
+	MONITOR=$(xrandr --listmonitors | grep " eDP"| sed -n -e 's/.*  //p') polybar main &
+fi
 echo "Bars launched..." 

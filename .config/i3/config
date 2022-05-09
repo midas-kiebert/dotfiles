@@ -243,7 +243,7 @@ bindsym XF86MonBrightnessDown exec --no-startup-id light -U 5 # decrease screen 
 
 bindsym $mod+backslash exec --no-startup-id playerctl play-pause
 
-bindsym Mod1+Control+backslash exec --no-startup-id ~/scripts/connect-bt.sh
+bindsym Mod1+Control+backslash exec --no-startup-id $scripts/connect-bt.sh
 bindsym Mod1+Tab workspace back_and_forth
 
 bindsym Mod1+W exec --no-startup-id $TERMINAL -e nmtui
@@ -253,7 +253,7 @@ bindsym $mod+Shift+equal gaps outer current plus 5
 bindsym $mod+Shift+minus gaps outer current minus 5
 
 exec_always --no-startup-id feh --bg-scale /home/midas/Pictures/wallpaper.png
-exec_always --no-startup-id python3 -u $HOME/scripts/alternating_layouts.py
+exec_always --no-startup-id python3 -u $scripts/alternating_layouts.py
 exec_always --no-startup-id picom -CGb
 exec_always --no-startup-id setxkbmap -layout us
-exec_always --no-startup-id xrandr --output DP-2 --auto --right-of eDP-1 & xrandr --auto & $HOME/.config/polybar/launch.sh
+exec_always --no-startup-id xrandr --output $(xrandr --listmonitors | grep " DP"| sed -n -e 's/.*  //p') --auto --right-of $( xrandr --listmonitors | grep " eDP"| sed -n -e 's/.*  //p') & xrandr --auto & $HOME/.config/polybar/launch.sh
