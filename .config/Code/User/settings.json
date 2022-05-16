@@ -20,5 +20,6 @@
     },
     "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
     "editor.fontFamily": "'Hack Nerd Font', 'monospace', monospace",
-    "workbench.colorTheme": "Atom One Dark"
+    "workbench.colorTheme": "Atom One Dark",
+    "git.autofetch": true
 }
