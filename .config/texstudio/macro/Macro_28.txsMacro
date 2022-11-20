@@ -4,11 +4,14 @@
         ""
     ],
     "formatVersion": 1,
-    "menu": "Brackets",
-    "name": "()",
+    "menu": "Environments",
+    "name": "Dubbele implicatie",
     "shortcut": "",
     "tag": [
-        "\\left( %| \\right)"
+        "\\begin{itemize}",
+        "\\item[$``\\implies\":$] %|",
+        "\\item[$``\\impliedby\":$]",
+        "\\end{itemize}"
     ],
-    "trigger": ";\\("
+    "trigger": ".dimp"
 }

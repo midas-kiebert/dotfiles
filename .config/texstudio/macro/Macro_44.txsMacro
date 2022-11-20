@@ -5,10 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "Mathematical Symbols",
-    "name": "integral",
+    "name": "Implies",
     "shortcut": "",
     "tag": [
-        "\\int_{%<a%>}^{%<b%>}"
+        "\\implies"
     ],
-    "trigger": ";int"
+    "trigger": ";>"
 }

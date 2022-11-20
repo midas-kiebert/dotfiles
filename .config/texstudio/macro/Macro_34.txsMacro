@@ -5,10 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "Mathematical Symbols",
-    "name": "integral",
+    "name": "times",
     "shortcut": "",
     "tag": [
-        "\\int_{%<a%>}^{%<b%>}"
+        "\\times"
     ],
-    "trigger": ";int"
+    "trigger": ";x"
 }

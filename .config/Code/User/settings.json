@@ -20,6 +20,8 @@
     },
     "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
     "editor.fontFamily": "'Hack Nerd Font', 'monospace', monospace",
-    "workbench.colorTheme": "Atom One Dark",
-    "git.autofetch": true
+    "git.autofetch": true,
+    "jupyter.askForKernelRestart": false,
+    "haskell.manageHLS": "GHCup",
+    "workbench.colorTheme": "Atom One Dark"
 }

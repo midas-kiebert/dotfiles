@@ -5,10 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "Mathematical Symbols",
-    "name": "integral",
+    "name": "Fraction",
     "shortcut": "",
     "tag": [
-        "\\int_{%<a%>}^{%<b%>}"
+        "\\frac{%<a%>}{%<b%>}"
     ],
-    "trigger": ";int"
+    "trigger": ";/"
 }

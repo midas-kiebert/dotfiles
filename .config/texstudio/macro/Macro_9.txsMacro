@@ -8,7 +8,7 @@
     "name": "F",
     "shortcut": "",
     "tag": [
-        "\\mathcal{F}"
+        "\\mathbb{F}"
     ],
     "trigger": ";F"
 }

@@ -5,10 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "Mathematical Symbols",
-    "name": "integral",
+    "name": "prime",
     "shortcut": "",
     "tag": [
-        "\\int_{%<a%>}^{%<b%>}"
+        "^{\\prime}"
     ],
-    "trigger": ";int"
+    "trigger": "\\^'"
 }

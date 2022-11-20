@@ -5,12 +5,12 @@
     ],
     "formatVersion": 1,
     "menu": "Environments",
-    "name": "Bewijs",
+    "name": "VMatrix",
     "shortcut": "",
     "tag": [
-        "\\begin{bewijs}",
+        "\\begin{vmatrix}",
         "\t%|",
-        "\\end{bewijs}"
+        "\\end{vmatrix}"
     ],
-    "trigger": ";bw"
+    "trigger": ";vmat"
 }

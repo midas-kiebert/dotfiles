@@ -5,10 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "Mathematical Symbols",
-    "name": "integral",
+    "name": "Kernel",
     "shortcut": "",
     "tag": [
-        "\\int_{%<a%>}^{%<b%>}"
+        "\\text{Ker}"
     ],
-    "trigger": ";int"
+    "trigger": ";ker"
 }

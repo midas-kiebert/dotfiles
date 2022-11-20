@@ -5,10 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "Mathematical Symbols",
-    "name": "infinite sum",
+    "name": "limit",
     "shortcut": "",
     "tag": [
-        "\\sum^{\\infty}_{%|}"
+        "\\lim_{%|}"
     ],
-    "trigger": ";isum"
+    "trigger": ";li"
 }

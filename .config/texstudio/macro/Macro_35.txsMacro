@@ -5,10 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "Mathematical Symbols",
-    "name": "sum",
+    "name": "standard limit",
     "shortcut": "",
     "tag": [
-        "\\sum_{%<a%>}^{%<b%>}"
+        "\\lim_{n \\to \\infty}"
     ],
-    "trigger": ";sum"
+    "trigger": ";;l"
 }

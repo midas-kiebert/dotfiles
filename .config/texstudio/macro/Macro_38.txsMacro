@@ -5,10 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "Mathematical Symbols",
-    "name": "Fraction",
+    "name": "sum",
     "shortcut": "",
     "tag": [
-        "\\frac{%<a%>}{%<b%>}"
+        "\\sum_{%<a%>}^{%<b%>}"
     ],
-    "trigger": ";/"
+    "trigger": ";sum"
 }

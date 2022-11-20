@@ -4,11 +4,11 @@
         ""
     ],
     "formatVersion": 1,
-    "menu": "Mathematical Symbols",
-    "name": "standard limit",
+    "menu": "Brackets",
+    "name": "<>",
     "shortcut": "",
     "tag": [
-        "\\lim_{n \\to \\infty}"
+        "\\left< %| \\right>"
     ],
-    "trigger": ";;l"
+    "trigger": ";<"
 }

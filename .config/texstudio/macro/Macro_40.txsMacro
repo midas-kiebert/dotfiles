@@ -5,10 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "Mathematical Symbols",
-    "name": "Kernel",
+    "name": "inverse",
     "shortcut": "",
     "tag": [
-        "\\text{Ker}"
+        "^{-1}"
     ],
-    "trigger": ";ker"
+    "trigger": "\\^-1"
 }

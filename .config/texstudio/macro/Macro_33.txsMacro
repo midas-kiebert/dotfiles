@@ -4,11 +4,11 @@
         ""
     ],
     "formatVersion": 1,
-    "menu": "Mathematical Symbols",
-    "name": "limit",
+    "menu": "Brackets",
+    "name": "||",
     "shortcut": "",
     "tag": [
-        "\\lim_{%|}"
+        "\\left| %| \\right|"
     ],
-    "trigger": ";li"
+    "trigger": ";\\|"
 }

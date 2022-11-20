@@ -257,3 +257,4 @@ exec_always --no-startup-id python3 -u $scripts/alternating_layouts.py
 exec_always --no-startup-id picom -CGb
 exec_always --no-startup-id setxkbmap -layout us
 exec_always --no-startup-id xrandr --output $(xrandr --listmonitors | grep " DP"| sed -n -e 's/.*  //p') --auto --right-of $( xrandr --listmonitors | grep " eDP"| sed -n -e 's/.*  //p') & xrandr --auto & $HOME/.config/polybar/launch.sh
+exec_always --no-startup-id xset r rate 200 50
